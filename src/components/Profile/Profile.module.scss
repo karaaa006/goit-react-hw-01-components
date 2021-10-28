@@ -40,6 +40,8 @@ $stats-bg-cl: #f3f6f9;
 .stats {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 

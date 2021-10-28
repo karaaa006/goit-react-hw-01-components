@@ -1,0 +1,36 @@
+.friendList {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  min-width: 250px;
+  padding: 10px 20px;
+
+  background-color: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.status {
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+  border-radius: 100%;
+  background-color: #fb554c;
+}
+
+.isOnline {
+  background-color: #56ab59;
+}
+
+.avatar {
+  margin-right: 20px;
+}

@@ -17,6 +17,8 @@
 .statList {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
